@@ -1,0 +1,9 @@
+{
+	"id": "31d01441-5f6a-476f-8241-ada50adbe816",
+	"createdAt": "2023-08-24T00:28:03.000Z",
+	"createdBy": "o0930847",
+	"name": "REQMX_PURCHASING",
+	"description": "Intervencion de Compras para ingresar datos a la solicitud",
+	"ver": "23.8.23.1929",
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c"
+}

@@ -1,0 +1,4 @@
+SearchFieldFolio2.setValue();
+SearchFieldMX2.setValue();
+SearchFieldPlanta2.setValue();
+mainTabFilterRechazadas();

@@ -1,0 +1,35 @@
+{
+	"id": "4c89d0f1-e7b2-4ff0-a3e4-b4e9fe8d6f49",
+	"createdAt": "2023-11-14T15:36:42.000Z",
+	"createdBy": "o0930847",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [
+		{
+			"id": "15477fd3-8845-4dd3-8b47-5cc804826264",
+			"parent": "3d8d991c-d311-4bcb-a4a2-286c931066d3",
+			"name": "/List",
+			"contextname": "getSecurityGroups",
+			"method": "POST"
+		},
+		{
+			"id": "1da813a9-36e5-4107-9a72-bf32ecbd89ba",
+			"parent": "3d8d991c-d311-4bcb-a4a2-286c931066d3",
+			"name": "/Get",
+			"contextname": "getSecurityGroup",
+			"method": "POST"
+		}
+	],
+	"name": "FindPurchasers",
+	"ver": "23.11.14.1537",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "894f114c-d395-4a4d-88b0-c269ed5081b9",
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c"
+}

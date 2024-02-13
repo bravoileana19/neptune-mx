@@ -1,0 +1,255 @@
+{
+	"id": "16a9ee67-3658-4595-82d7-9e05ec73a068",
+	"createdAt": "2023-08-01T23:30:15.000Z",
+	"createdBy": "o0930847",
+	"fields": [
+		{
+			"id": "e242f5a7-22b5-48e0-9523-d6f0df50405c",
+			"fieldName": "grl_folio",
+			"fieldType": "smalltext",
+			"isUnique": true,
+			"isNullable": true
+		},
+		{
+			"id": "4f06795e-15da-4dcb-e526-d0610b324119",
+			"fieldName": "grl_planta",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ea3a2835-5058-47ac-8810-ea41598059e3",
+			"fieldName": "grl_tipo_solicitud",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "4d1f199b-e5d4-4252-b5d7-9ce986553835",
+			"fieldName": "grl_codigo",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "f187113f-906b-4194-8443-94db39e1f799",
+			"fieldName": "grl_tipo_material",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "904c65c6-9559-4505-e1d0-a23df1d4c9e2",
+			"fieldName": "grl_grupo_articulos",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "10adec6c-a81b-4dae-9994-33b91640e862",
+			"fieldName": "grl_dimensiones",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "f0e1c3d3-0ead-4c15-a56e-89751246840a",
+			"fieldName": "grl_area",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ef45f079-c61b-4b4d-ae02-c0d7054265d7",
+			"fieldName": "grl_equipo",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "92de9d11-81ce-409c-a09b-0374d0ac1542",
+			"fieldName": "grl_caducidad",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "577e2a8a-0753-4c41-f36a-25108f30776d",
+			"fieldName": "grl_consumo",
+			"fieldType": "bigint",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "4805f755-e48b-4ee9-c127-97a51adbd777",
+			"fieldName": "grl_clasificacion",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ca944ec5-84ca-4ac5-b24a-95ebfd379ea6",
+			"fieldName": "grl_justificacion",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d2a96af9-4d52-4747-af88-b05db7b41f69",
+			"fieldName": "grl_hoja_seguridad",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "92fcb5f9-4d93-4654-d37f-4a5b551af362",
+			"fieldName": "grl_hoja_resguardo",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "4a18a9b6-3586-4788-8f7f-c2612ce46014",
+			"fieldName": "grl_comentarios",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "76e66c2d-c825-4dfc-f065-8124f390a117",
+			"fieldName": "grl_status_now",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b29d60b5-e1fc-42b2-b100-0da1f201386c",
+			"fieldName": "grl_name_usr_now",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ae25788b-d54f-4c15-8dc2-5f5facbb839b",
+			"fieldName": "grl_usr_now",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "15ea26fb-6f62-4443-99ce-f9d30af2ee3e",
+			"fieldName": "grl_precio",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"precision": "14",
+			"scale": "2",
+			"isNullable": true
+		},
+		{
+			"id": "7e6dbada-758c-45d1-8807-f3f4729865ce",
+			"fieldName": "grl_plazo_entrega",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "44de863b-ad7b-4332-8a82-12fb8090d702",
+			"fieldName": "grl_moneda",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "eebf73f3-f56a-4521-eec3-7eaa326428d0",
+			"fieldName": "grl_proveedor",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b70e809a-620f-491a-8f5e-a252e690bed8",
+			"fieldName": "grl_stock_min",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"precision": "14",
+			"scale": "2",
+			"isNullable": true
+		},
+		{
+			"id": "cd4d7584-0747-4692-d2bd-7f3308268fc3",
+			"fieldName": "grl_stock_max",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"precision": "14",
+			"scale": "2",
+			"isNullable": true
+		},
+		{
+			"id": "197b90c4-6a6e-4f92-cc27-dfe6af05ed63",
+			"fieldName": "grl_punto_reorden",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "73c38df3-1ca7-4bef-f878-2c0cc88d54a8",
+			"fieldName": "grl_codigo_mx",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "f5e57c86-8676-4c58-be89-39fdde92da5e",
+			"fieldName": "grl_id_wf",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "33b17c75-57f8-4e8f-937b-15c3ebc15aab",
+			"fieldName": "grl_clasf_edit",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "0",
+			"isNullable": true
+		},
+		{
+			"id": "ff34e7dc-586a-4b85-d193-292f0eadd618",
+			"fieldName": "grl_descripcion",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "3c24275b-091c-48e4-ace7-c5e77ab1baea",
+			"fieldName": "grl_umb",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "2515b4e3-e219-4d66-8b5d-391f053deadb",
+			"fieldName": "grl_purchaser",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "bf5cc12a-7b14-4dbb-a4c6-7ccf5de2db61",
+			"fieldName": "grl_mgr_purchaser",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "grl_mx_request",
+	"description": "Informacion general de solicitudes",
+	"ver": "23.11.28.135",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c",
+	"rolesRead": [],
+	"rolesWrite": []
+}

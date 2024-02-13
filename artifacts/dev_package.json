@@ -1,0 +1,497 @@
+{
+	"id": "d9229878-8c9e-4572-a17b-02780781be8c",
+	"createdAt": "2023-08-01T21:44:39.000Z",
+	"createdBy": "o0930847",
+	"git": {
+		"remote": "https://github.com/bravoileana19/neptune-mx.git"
+	},
+	"name": "SGSM-LGT-MX-REQ",
+	"description": "Paquete de desarrollo dedicado para el modulo de solicitud de creacion de MXs",
+	"ver": "24.2.13.1455",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "bc5c8a30-1310-4dd3-eacf-8bf0b0fe022c",
+			"application": "qa_mx_requests",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "bb9954a0-ed29-40a2-9200-af6ff5cbb765",
+			"application": "mx_requests",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "8f2c0b35-1561-4300-a62c-6586b0463e4c",
+			"application": "mx_details_inbox",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "1772fe62-a360-4664-d2c1-6469adaa8ce7",
+			"application": "dev_mx_request",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [
+		{
+			"id": "df10a06c-bd20-49f4-8744-0cc7b930d6f8",
+			"name": "API_MX_LST",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "c1e2d8f7-0490-4076-858f-5e006298c1af",
+			"name": "SGSMLOG_MX_API_SCRIPT",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "559a0715-4932-4e09-8bfc-557dc4dd4d8b",
+			"name": "SGSM_MX_API_GRAL",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "50c10bfe-8c66-4f8d-817e-4ac66c5a15ba",
+			"name": "progress_mx",
+			"description": "Tabla para almacenar el progreso del flujo"
+		},
+		{
+			"id": "16a9ee67-3658-4595-82d7-9e05ec73a068",
+			"name": "grl_mx_request",
+			"description": "Informacion general de solicitudes"
+		}
+	],
+	"jsclass": [
+		{
+			"id": "e98fdba6-557e-4b15-b95b-aedf33ca5a33",
+			"name": "Get Request In Process",
+			"description": null
+		},
+		{
+			"id": "e0a8b76e-e2bc-48fe-b9db-fde465b2eee0",
+			"name": "SolicitudRechazada",
+			"description": null
+		},
+		{
+			"id": "b6601732-87f0-42be-b14a-fdc51ea1948a",
+			"name": "Get MX Record",
+			"description": null
+		},
+		{
+			"id": "b026df57-d1f8-4721-9a03-b8b873532e22",
+			"name": "Manejar Flujo",
+			"description": null
+		},
+		{
+			"id": "7474d70c-5ce3-4781-a9ff-efff51743463",
+			"name": "CustomWf",
+			"description": null
+		},
+		{
+			"id": "6da05913-9ff2-486d-82eb-a875e3286db0",
+			"name": "CreateRequest",
+			"description": "Creating the request of the ERSA codes"
+		},
+		{
+			"id": "4c89d0f1-e7b2-4ff0-a3e4-b4e9fe8d6f49",
+			"name": "FindPurchasers",
+			"description": null
+		},
+		{
+			"id": "3f5a73bc-511f-49a8-877a-fe59e3dd5d62",
+			"name": "ValidarClasificacion",
+			"description": null
+		},
+		{
+			"id": "38c2f427-c345-4d62-939b-31668a62b066",
+			"name": "ValidarTipoMaterial",
+			"description": null
+		},
+		{
+			"id": "37f4f9f1-0b0f-4e15-a132-59332e19c4cd",
+			"name": "UpdateWfReq",
+			"description": null
+		},
+		{
+			"id": "263ddfdd-aa58-457a-a94f-251ff06212f4",
+			"name": "SolicitudAprobada",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "894f114c-d395-4a4d-88b0-c269ed5081b9",
+			"name": "SGSMLOG_MX_SCRIPT",
+			"description": null
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [
+		{
+			"id": "4f04392b-3f58-49d2-948b-62455fcb8c39",
+			"name": "CoreAPI Auth",
+			"description": null
+		}
+	],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "5af33540-843b-412f-b406-d154e187d3fb",
+			"description": "Solicitud de Codigos MX",
+			"name": "SGSM-LGT-REQMX"
+		}
+	],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [
+		{
+			"id": "ed584f78-31ba-4365-bad4-ac6041db36c9",
+			"name": "REQMX_PLANNING",
+			"description": "Intervencion del Jefe de Planeacion de Materiales para ingresar stocks"
+		},
+		{
+			"id": "e01b06db-6a41-468c-928a-acb1c4446417",
+			"name": "REQMX_APPROVAL_LGT1",
+			"description": "Primer aprobacion de Jefes de Logistica"
+		},
+		{
+			"id": "c7c5f78c-9800-46d6-bb1f-644ac5263b9d",
+			"name": "REQMX_APPROVAL_EHS",
+			"description": "Aprobacion de EHS en caso de materiales HIBE"
+		},
+		{
+			"id": "ac689121-4f1a-4560-848d-1c996b4e6208",
+			"name": "REQMX_REQUESTER",
+			"description": "Solicitud de creacion de codigos MX"
+		},
+		{
+			"id": "70dce099-6414-4ef0-927e-9cfb2c61cc9c",
+			"name": "REQMX_APPROVAL_DIR1",
+			"description": "Primer aprobacion del Director de Planta para cambiar la clasificacion del MX"
+		},
+		{
+			"id": "69fd6352-1910-4a57-984a-9b6a18841866",
+			"name": "Comunication Head and AD",
+			"description": null
+		},
+		{
+			"id": "4f069756-d8c3-4404-b52f-8ac31dc01b58",
+			"name": "REQMX_APPROVAL_DIR2",
+			"description": "Segunda aprobacion del Director de Planta"
+		},
+		{
+			"id": "35403d02-742b-48f8-ac3d-6d85e394d51e",
+			"name": "REQMX_APPROVAL_PUR",
+			"description": "Aprobacion de los Gerentes de Compras"
+		},
+		{
+			"id": "339b8fa1-891b-47cb-aedd-7efc1c94f722",
+			"name": "REQMX_APPROVAL_LGT2",
+			"description": "Segunda aprobacion del Jefe de Logistica"
+		},
+		{
+			"id": "31d01441-5f6a-476f-8241-ada50adbe816",
+			"name": "REQMX_PURCHASING",
+			"description": "Intervencion de Compras para ingresar datos a la solicitud"
+		},
+		{
+			"id": "13107d1c-6356-4000-830a-c73568e13d59",
+			"name": "REQMX_MASTERDATA",
+			"description": "Aprobacion de Datos Maestros"
+		}
+	],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [
+		{
+			"id": "743c4faf-0a14-4165-9fc0-7bf2af5af619",
+			"name": "SGSM-LGT-MX-REQ-APPROVE",
+			"description": "Solicitud de Codigo MX Aprobada"
+		},
+		{
+			"id": "35668dc7-9be4-42c1-a0e2-c685ed6f2f05",
+			"name": "SGSM-LGT-MX-REQ-PENDING",
+			"description": "Creacion de MX's - Solicitud Pendiente"
+		},
+		{
+			"id": "276ff196-e46b-4ea7-b68e-e7246d713e1d",
+			"name": "SGSM-LGT-MX-REQ-REJECT",
+			"description": "Solicitud de Codigo MX Rechazada"
+		}
+	],
+	"department": [
+		{
+			"id": "f8861d87-a15d-487b-b865-9bf3a469a6d7",
+			"name": "791_REQMX_PURCHASING",
+			"description": null
+		},
+		{
+			"id": "f113de6c-83de-42b3-a3fb-55ece3c85643",
+			"name": "707_REQMX_NOTIFY",
+			"description": null
+		},
+		{
+			"id": "ee3b9943-21a9-4e34-b4d9-fc2d9f3c1332",
+			"name": "REQMX_REQUEST",
+			"description": null
+		},
+		{
+			"id": "e1501e1b-3070-4145-a049-c3d9ba1eee11",
+			"name": "709_REQMX_DIR_PLANT",
+			"description": null
+		},
+		{
+			"id": "dceb85d2-8531-4916-87c5-620976c0817a",
+			"name": "791_REQMX_MGR_PUR",
+			"description": null
+		},
+		{
+			"id": "d12a3b8a-3e33-47e6-8adb-630ba1e0298a",
+			"name": "709_REQMX_EHS",
+			"description": null
+		},
+		{
+			"id": "c747beac-d26b-46e1-91bb-2f6ef7dee34d",
+			"name": "701_REQMX_NOTIFY",
+			"description": null
+		},
+		{
+			"id": "c5acd136-c45b-4597-998e-61a3ad9070cb",
+			"name": "791_REQMX_EHS",
+			"description": null
+		},
+		{
+			"id": "c573b0d2-c388-4afa-ad20-42bdb3f8810c",
+			"name": "709_REQMX_FIA",
+			"description": null
+		},
+		{
+			"id": "c29f57ab-4c85-454f-b30a-429f74bc8257",
+			"name": "707_REQMX_DIR_PLANT",
+			"description": null
+		},
+		{
+			"id": "b3b2f175-59a0-40e8-a8e9-c5c6084325ee",
+			"name": "709_REQMX_PLANNER",
+			"description": null
+		},
+		{
+			"id": "a300ac34-c01f-4489-be7b-a0c086af7ff8",
+			"name": "791_REQMX_DIR_PLANT",
+			"description": null
+		},
+		{
+			"id": "99788eba-668b-4d3d-972f-1ba58bd79dbc",
+			"name": "REQMX_VIEWER",
+			"description": null
+		},
+		{
+			"id": "9634fa3e-5075-4677-9810-7d32d39a92a4",
+			"name": "701_REQMX_MGR_LGT",
+			"description": null
+		},
+		{
+			"id": "945842d1-e78f-4b9d-8056-f3c3f3729cee",
+			"name": "709_REQMX_NOTIFY",
+			"description": null
+		},
+		{
+			"id": "879c4975-7734-4809-8b0b-6dc8c8ef940d",
+			"name": "701_REQMX_FIA",
+			"description": null
+		},
+		{
+			"id": "7e11859d-587d-40c5-abc0-8f603cab6db5",
+			"name": "707_REQMX_PLANNER",
+			"description": null
+		},
+		{
+			"id": "785a3a9c-f7e3-4d5a-a8d4-b2f250102f6f",
+			"name": "701_REQMX_PLANNER",
+			"description": null
+		},
+		{
+			"id": "7751e16e-cdf0-47f1-b60b-10e01c9b8bd2",
+			"name": "791_REQMX_NOTIFY",
+			"description": null
+		},
+		{
+			"id": "76198545-701d-4fd4-b4d1-066b3751dedc",
+			"name": "791_REQMX_MASTERDATA",
+			"description": null
+		},
+		{
+			"id": "7257ac7c-97f4-4e63-8b16-86c7b5019660",
+			"name": "791_REQMX_MGR_LGT",
+			"description": null
+		},
+		{
+			"id": "66c1d9c6-2a63-4c8a-9a65-37c1758362d8",
+			"name": "701_REQMX_DIR_PLANT",
+			"description": null
+		},
+		{
+			"id": "5fc0c4fc-9ba2-4f7b-9d35-1143365fd6e3",
+			"name": "707_REQMX_MGR_LGT",
+			"description": null
+		},
+		{
+			"id": "5a955282-0022-45b8-a7be-109345bc62e5",
+			"name": "709_REQMX_MGR_LGT",
+			"description": null
+		},
+		{
+			"id": "51492c6e-6bac-489b-a94d-93c56e4dfcaa",
+			"name": "791_REQMX_FIA",
+			"description": null
+		},
+		{
+			"id": "513b779b-7308-400b-83df-fbb1a1dc8692",
+			"name": "707_REQMX_MASTERDATA",
+			"description": null
+		},
+		{
+			"id": "49461a00-24d4-4305-af03-aa686bb06d35",
+			"name": "701_REQMX_EHS",
+			"description": null
+		},
+		{
+			"id": "48f8fd5c-42fe-486f-9a67-5916973e7d75",
+			"name": "709_REQMX_PURCHASING",
+			"description": null
+		},
+		{
+			"id": "47bef33c-8394-404e-ae07-d404cbb678b8",
+			"name": "707_REQMX_MGR_PUR",
+			"description": null
+		},
+		{
+			"id": "42a6d632-e433-48d5-bf85-6c01c9f43daa",
+			"name": "701_REQMX_MGR_PUR",
+			"description": null
+		},
+		{
+			"id": "3fa2f361-a54f-4c11-a38a-347ec24c7234",
+			"name": "791_REQMX_PLANNER",
+			"description": null
+		},
+		{
+			"id": "3c170501-901f-41a4-8705-fd2d50465d18",
+			"name": "701_REQMX_MASTERDATA",
+			"description": null
+		},
+		{
+			"id": "24864fb8-1d2f-42c1-a562-17111408a083",
+			"name": "707_REQMX_PURCHASING",
+			"description": null
+		},
+		{
+			"id": "14d10019-288e-431a-ad3c-dbf1896fa929",
+			"name": "701_REQMX_PURCHASING",
+			"description": null
+		},
+		{
+			"id": "117a8bbf-d7d9-4fe0-a3d4-d8d54dd5558b",
+			"name": "707_REQMX_EHS",
+			"description": null
+		},
+		{
+			"id": "0de53b4a-14aa-4316-ab0b-0bdb6196eb07",
+			"name": "709_REQMX_MGR_PUR",
+			"description": null
+		},
+		{
+			"id": "0922d48b-59be-40d5-8122-d4689d30a295",
+			"name": "707_REQMX_FIA",
+			"description": null
+		},
+		{
+			"id": "02ef8014-2a5b-428a-be2b-566c0115a5a6",
+			"name": "709_REQMX_MASTERDATA",
+			"description": null
+		}
+	],
+	"script_scheduler": [],
+	"wf_definition": [
+		{
+			"id": "dcab0484-92bf-4ed9-ab8b-626a4085d1a5",
+			"title": "SGSM_LGT_MX_WF",
+			"subTitle": "MX's"
+		},
+		{
+			"id": "b8dd76d4-c593-414e-ba95-5d3d3274d1f5",
+			"title": "SGSM_LGT_MX_WF - Respaldo",
+			"subTitle": "MX's"
+		}
+	],
+	"connector": [],
+	"events": [],
+	"media_library": [],
+	"code_snippets": [],
+	"wf_determination": [
+		{
+			"id": "70e5ff3d-abc3-4fab-b302-499912ed02d2",
+			"name": "REQMX_APPROVERS",
+			"description": null
+		}
+	],
+	"wf_taskaction": [
+		{
+			"id": "ca2ac802-b193-4b06-abd1-672b7b278243",
+			"name": "Approve_ReqMX_PUR1",
+			"description": null
+		},
+		{
+			"id": "c8db45ec-f3e1-4d9c-94e8-0593acbad9c5",
+			"name": "Approve_ReqMX_LGT1",
+			"description": null
+		},
+		{
+			"id": "a2f45323-b5d1-4320-9305-c9d155068d4f",
+			"name": "Approve_ReqMX_DIR2",
+			"description": null
+		},
+		{
+			"id": "9a1b344f-b65a-407d-adc8-83bb43f666ae",
+			"name": "Approve_ReqMX_DIR1",
+			"description": null
+		},
+		{
+			"id": "74b907ef-bd85-4dc9-ad1f-f6415cc59ead",
+			"name": "Approve_ReqMX_PUR2",
+			"description": null
+		},
+		{
+			"id": "2b7b0501-b4cc-48cc-a360-db2a9fec2b25",
+			"name": "Approve_ReqMX_EHS",
+			"description": null
+		},
+		{
+			"id": "28b79fd4-078c-4a9c-b745-d76616cab570",
+			"name": "Approve_ReqMX_PLN",
+			"description": null
+		},
+		{
+			"id": "1bbec01b-ff8f-4a7e-979a-63eb99750659",
+			"name": "Approve_ReqMX_MDA",
+			"description": null
+		},
+		{
+			"id": "1aeab36b-5188-4d90-b19f-c2dd40ae490b",
+			"name": "Approve_ReqMX_LGT2",
+			"description": null
+		}
+	]
+}

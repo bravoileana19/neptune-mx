@@ -1,0 +1,787 @@
+{
+	"id": "559a0715-4932-4e09-8bfc-557dc4dd4d8b",
+	"createdAt": "2023-08-07T19:38:01.000Z",
+	"createdBy": "o0930847",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "51811b3f-001f-4f04-c1ee-1096c6284637",
+			"path": "/grl_mx_request",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1,fieldName2,fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "grl_mx_request"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "fdba7bc1-276b-44c1-bc09-7e9c91f71e8b",
+			"path": "/grl_mx_request",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "grl_mx_request"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "grl_mx_request"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ddbff1cd-446a-457e-c26c-b9cc87471a40",
+			"path": "/grl_mx_request",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "grl_mx_request"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "grl_mx_request"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ef94c4e7-2898-4bb8-b189-d03d2bc75094",
+			"path": "/grl_mx_request",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "grl_mx_request"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "e5564f13-ef96-4648-8f4c-fe4947410149",
+			"path": "/grl_mx_request/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "3e262de4-7b40-4e54-99a3-5dadb2f04a8f",
+			"name": "grl_mx_request",
+			"properties": [
+				{
+					"id": "c7cf8d37-891f-40cf-a710-ebfbcae4ad30",
+					"name": "id",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "e004fede-94cb-4211-c94f-a448a9ee60de",
+					"name": "createdAt",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "7d1993a4-7f6e-4a80-d027-d0fdbc4e73a9",
+					"name": "updatedAt",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "13797069-7040-4c8b-8750-866ef5f24cfb",
+					"name": "createdBy",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "c0f2011a-b1c4-41e2-9fd6-a7c4336f30fb",
+					"name": "updatedBy",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "0fe0dd0e-889a-4ec0-951e-e0e5f28d2dad",
+					"name": "grl_folio",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "40b60622-e40d-4fb1-9c8f-971097a34741",
+					"name": "grl_planta",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "8e6dcd5a-c43c-4949-eabc-4266c8b72bf9",
+					"name": "grl_tipo_solicitud",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "1fe40efb-1b42-4de0-e707-16b521e51fcd",
+					"name": "grl_codigo",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "3a85bc0a-374a-4dad-d0fd-c0c00150312b",
+					"name": "grl_tipo_material",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "331fbcd4-e20f-4c28-e660-06d2cfe061c3",
+					"name": "grl_grupo_articulos",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "919f7898-ebb4-40d0-9e5d-386c622ffa91",
+					"name": "grl_dimensiones",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "7b6a87ad-f88d-443d-abc8-76845b48f86a",
+					"name": "grl_area",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "f9f79d99-c3b3-4c27-f74f-7736db96375c",
+					"name": "grl_equipo",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "9a58dc3b-2211-4cc9-c2bd-a3c86e807b55",
+					"name": "grl_caducidad",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "398a8e29-8f78-42ad-d932-968bc6d51b49",
+					"name": "grl_consumo",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "27779ce8-19f1-42e1-92dd-8273f01417f9",
+					"name": "grl_clasificacion",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "b53e0b9a-1fae-4f1d-8e9e-b4243a1bbd5e",
+					"name": "grl_justificacion",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "5df02976-aecb-404d-e6e7-3e5d984df63e",
+					"name": "grl_hoja_seguridad",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "2fcbf1fd-2c55-4aaa-9b74-1a1f7aa46560",
+					"name": "grl_hoja_resguardo",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "261d6c35-c1ce-4f2c-f477-b43858c557d7",
+					"name": "grl_comentarios",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "6319590f-79cc-4460-fe7a-7ae1f200de2d",
+					"name": "grl_status_now",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "a6af7a90-8075-49a1-e7c6-456b261e3423",
+					"name": "grl_name_usr_now",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "7f0b7764-2b69-4c0f-e76b-e3b432b9cc7e",
+					"name": "grl_usr_now",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "7c7be9df-2187-473a-9d34-79d0e53cffe6",
+					"name": "grl_precio",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"objectName": "grl_precio",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "c5e21bac-a46a-4f80-80af-31cdfe188e00",
+					"name": "grl_plazo_entrega",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"objectName": "grl_plazo_entrega",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "915b1100-ef9e-4314-f239-8fae53c7d3f8",
+					"name": "grl_moneda",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"objectName": "grl_moneda",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "36915c07-0245-47d7-9d4b-58fe5b928932",
+					"name": "grl_proveedor",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"objectName": "grl_proveedor",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "1b165cfb-73ca-41aa-a37d-916451f04514",
+					"name": "grl_stock_min",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"objectName": "grl_stock_min",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "d1c3bd6b-9657-45ce-c8f7-b1cee1d8d9e9",
+					"name": "grl_stock_max",
+					"parent": "",
+					"description": "",
+					"objectType": "number",
+					"objectName": "grl_stock_max",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "834c9286-36e9-444c-bbd3-74bde47d0227",
+					"name": "grl_punto_reorden",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"objectName": "grl_punto_reorden",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "f4814c5a-880f-467f-a2d3-fc5c2ef0dfa6",
+					"name": "grl_codigo_mx",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"objectName": "grl_codigo_mx",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "4d348e23-a80d-4eb0-c0ad-659b37c544d3",
+					"name": "grl_id_wf",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "7c2dbca0-9354-4a74-f368-85222f90bd4d",
+					"name": "grl_clasf_edit",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "3dc02281-e6c7-4593-b226-5eab746a27ba",
+					"name": "grl_descripcion",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "f4056a2c-e60f-476f-bb13-548ea8d5a44f",
+					"name": "grl_umb",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		},
+		{
+			"id": "d11a1d59-d23e-4217-e52a-39e2fd820a05",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "31a60d3c-34dd-4929-ffe8-408fb19dcbe7",
+					"parent": "",
+					"name": "status",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "94d37f0d-6659-47f4-9633-a16691f89a83",
+					"parent": "",
+					"name": "message",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		},
+		{
+			"id": "d3b9f06a-3fe9-4582-8354-66f0abcea3c7",
+			"name": "count",
+			"properties": [
+				{
+					"id": "f7f1746a-b347-46cf-f338-b7451a87f9c0",
+					"parent": "",
+					"name": "count",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "SGSM_MX_API_GRAL",
+	"endpoint": "/api/entity",
+	"ver": "23.10.18.1136",
+	"version": "1.0",
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": "",
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

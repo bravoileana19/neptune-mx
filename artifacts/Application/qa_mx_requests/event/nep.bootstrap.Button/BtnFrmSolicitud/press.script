@@ -1,0 +1,3 @@
+// Change transition
+clearForm();
+App.to(RequestPage, "fade");

@@ -1,0 +1,9 @@
+{
+	"id": "c7c5f78c-9800-46d6-bb1f-644ac5263b9d",
+	"createdAt": "2023-08-24T00:36:14.000Z",
+	"createdBy": "o0930847",
+	"name": "REQMX_APPROVAL_EHS",
+	"description": "Aprobacion de EHS en caso de materiales HIBE",
+	"ver": "23.8.23.1936",
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c"
+}

@@ -1,0 +1,15 @@
+{
+	"id": "76198545-701d-4fd4-b4d1-066b3751dedc",
+	"createdAt": "2023-09-24T07:31:13.000Z",
+	"createdBy": "o0930847",
+	"name": "791_REQMX_MASTERDATA",
+	"description": null,
+	"ver": "23.9.24.231",
+	"parent": null,
+	"isExternal": false,
+	"idpSource": "local",
+	"idpSourceId": null,
+	"idpSourceKey": null,
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c",
+	"roles": []
+}

@@ -1,0 +1,46 @@
+{
+	"id": "50c10bfe-8c66-4f8d-817e-4ac66c5a15ba",
+	"createdAt": "2023-09-12T15:13:03.000Z",
+	"createdBy": "o0930847",
+	"fields": [
+		{
+			"id": "16ef2011-57e2-41ee-e8f5-09876519821e",
+			"fieldName": "folio",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "883d85e5-4ea5-402a-99ad-131872c475b6",
+			"fieldName": "approval",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "4ebbe936-f798-48c5-815d-bea89d10ce97",
+			"fieldName": "step",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "",
+			"isNullable": true
+		},
+		{
+			"id": "56b8d884-143c-44a1-b33a-4a1719ecaddd",
+			"fieldName": "status",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "progress_mx",
+	"description": "Tabla para almacenar el progreso del flujo",
+	"ver": "23.9.12.912",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c",
+	"rolesRead": [],
+	"rolesWrite": []
+}

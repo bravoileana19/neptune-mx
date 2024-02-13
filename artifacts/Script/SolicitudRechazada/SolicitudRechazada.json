@@ -1,0 +1,36 @@
+{
+	"id": "e0a8b76e-e2bc-48fe-b9db-fde465b2eee0",
+	"createdAt": "2023-09-05T22:18:46.000Z",
+	"createdBy": "o0930847",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "16a9ee67-3658-4595-82d7-9e05ec73a068",
+			"name": "grl_mx_request",
+			"contextname": "grl_mx_request"
+		},
+		{
+			"id": "50c10bfe-8c66-4f8d-817e-4ac66c5a15ba",
+			"name": "progress_mx",
+			"contextname": "progress_mx"
+		},
+		{
+			"id": "2891f6c2-c92e-4adf-a150-30cabf367197",
+			"name": "users",
+			"contextname": "users"
+		}
+	],
+	"apis": [],
+	"name": "SolicitudRechazada",
+	"ver": "23.10.3.195",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "894f114c-d395-4a4d-88b0-c269ed5081b9",
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c"
+}

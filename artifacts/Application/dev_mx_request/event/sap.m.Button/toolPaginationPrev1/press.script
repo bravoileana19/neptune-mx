@@ -1,0 +1,3 @@
+paginationBarSolicitudes.pagination.index--;
+paginationBarSolicitudes.run(true); 
+paginationBarSolicitudes.handlePagination();

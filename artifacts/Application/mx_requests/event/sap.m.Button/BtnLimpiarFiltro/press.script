@@ -1,0 +1,4 @@
+SearchFieldFolio.setValue();
+SearchFieldMX.setValue();
+SearchFieldPlanta.setValue();
+mainTabFilter();

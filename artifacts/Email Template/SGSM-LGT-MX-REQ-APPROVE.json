@@ -1,0 +1,12 @@
+{
+	"id": "743c4faf-0a14-4165-9fc0-7bf2af5af619",
+	"createdAt": "2023-09-26T19:13:56.000Z",
+	"createdBy": "o0930847",
+	"translation": null,
+	"name": "SGSM-LGT-MX-REQ-APPROVE",
+	"description": "Solicitud de Codigo MX Aprobada",
+	"content": "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\"><link href=\"http://dev.mx-dxp.ids.saint-gobain.net:8080/public/editor/suneditor.min.css\" rel=\"stylesheet\"></head><body class=\"sun-editor-editable\" style=\"\" ><div style=\"padding-top: 5px;padding-bottom: 5px; color: #008601\"><h3>Neptune MX Request</h3><p> <strong> La siguiente solicitud de codigo MX ha sido liberada </strong> </p> <table style=\"border: 1px solid #1f497d;border-collapse:collapse; text-align:center; width: 100%;\">                        <tbody> <tr> <th style=\"color:#ffffff;background:#008601\">                                                            <div>Folio</div> </th> <th style=\"color:#ffffff;background:#008601\">                                                            <div>Planta</div> </th> <th style=\"color:#ffffff;background:#008601\">                                                            <div>Tipo</div> </th> <th style=\"color:#ffffff;background:#008601\">                                                            <div>Clasificacion</div> </th> <th style=\"color:#ffffff;background:#008601\">                                                            <div>Tipo de Material</div> </th> <th style=\"color:#ffffff;background:#008601\">                                                            <div>Solicitante</div> </th> <th style=\"color:#ffffff;background:#008601\">                                                            <div>Fecha de Solicitud</div> </th> </tr> <tr> <td> <div>{=folio}</div> </td> <td> <div>{=planta}</div> </td> <td> <div>{=tipo}</div> </td> <td> <div>{=clasificacion}</div> </td> <td> <div>{=tipo_material}</div> </td> <td> <div>{=solicitante}</div> </td> <td> <div>{=fecha_solicitud}</div> </td> </tr> </tbody> </table></div><p> </p><p></p><footer style=\"padding: 5px;\"><p> For more information click on next link <a href=\"#\">Go!</a> </p></footer><p></p></body></html>",
+	"ver": "23.9.26.1825",
+	"type": "template",
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c"
+}

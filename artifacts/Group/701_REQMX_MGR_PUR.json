@@ -1,0 +1,15 @@
+{
+	"id": "42a6d632-e433-48d5-bf85-6c01c9f43daa",
+	"createdAt": "2023-10-25T19:11:48.000Z",
+	"createdBy": "o0930847",
+	"name": "701_REQMX_MGR_PUR",
+	"description": null,
+	"ver": "23.11.30.1240",
+	"parent": null,
+	"isExternal": false,
+	"idpSource": "local",
+	"idpSourceId": null,
+	"idpSourceKey": null,
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c",
+	"roles": []
+}

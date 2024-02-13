@@ -1,0 +1,15 @@
+{
+	"id": "5a955282-0022-45b8-a7be-109345bc62e5",
+	"createdAt": "2023-09-24T07:07:03.000Z",
+	"createdBy": "o0930847",
+	"name": "709_REQMX_MGR_LGT",
+	"description": null,
+	"ver": "24.1.9.929",
+	"parent": null,
+	"isExternal": false,
+	"idpSource": "local",
+	"idpSourceId": null,
+	"idpSourceKey": null,
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c",
+	"roles": []
+}

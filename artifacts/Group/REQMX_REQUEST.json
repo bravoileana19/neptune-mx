@@ -1,0 +1,15 @@
+{
+	"id": "ee3b9943-21a9-4e34-b4d9-fc2d9f3c1332",
+	"createdAt": "2023-09-08T15:54:54.000Z",
+	"createdBy": "o0930847",
+	"name": "REQMX_REQUEST",
+	"description": null,
+	"ver": "24.2.12.1244",
+	"parent": null,
+	"isExternal": false,
+	"idpSource": "local",
+	"idpSourceId": null,
+	"idpSourceKey": null,
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c",
+	"roles": []
+}

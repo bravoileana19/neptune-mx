@@ -1,0 +1,127 @@
+{
+	"id": "70e5ff3d-abc3-4fab-b302-499912ed02d2",
+	"createdAt": "2023-08-27T06:23:35.000Z",
+	"createdBy": "o0930847",
+	"items": [
+		{
+			"id": "29831898-bc2c-4c21-c2d7-50e48b8d474b",
+			"orgUnit": "R",
+			"orgValue": "REQMX_APPROVAL_DIR1",
+			"amountFrom": 0,
+			"amountTo": 0,
+			"operation": "A",
+			"taskType": [],
+			"orgId": "70dce099-6414-4ef0-927e-9cfb2c61cc9c",
+			"taskAction": [
+				"9a1b344f-b65a-407d-adc8-83bb43f666ae"
+			]
+		},
+		{
+			"id": "6b48aa19-a245-410e-cf3e-f7ca1b5c1992",
+			"orgUnit": "R",
+			"orgValue": "REQMX_APPROVAL_LGT1",
+			"amountFrom": 0,
+			"amountTo": 0,
+			"operation": "A",
+			"taskType": [],
+			"orgId": "e01b06db-6a41-468c-928a-acb1c4446417",
+			"taskAction": [
+				"c8db45ec-f3e1-4d9c-94e8-0593acbad9c5"
+			]
+		},
+		{
+			"id": "549b1e48-9b98-4107-facc-c0e42b6d5ebb",
+			"orgUnit": "R",
+			"orgValue": "REQMX_PURCHASING",
+			"amountFrom": 0,
+			"amountTo": 0,
+			"operation": "A",
+			"taskType": [],
+			"orgId": "31d01441-5f6a-476f-8241-ada50adbe816",
+			"taskAction": [
+				"ca2ac802-b193-4b06-abd1-672b7b278243"
+			]
+		},
+		{
+			"id": "8f2e67e7-ec29-494d-e8eb-e73edc650d0e",
+			"orgUnit": "R",
+			"orgValue": "REQMX_PLANNING",
+			"amountFrom": 0,
+			"amountTo": 0,
+			"operation": "A",
+			"taskType": [],
+			"orgId": "ed584f78-31ba-4365-bad4-ac6041db36c9",
+			"taskAction": [
+				"28b79fd4-078c-4a9c-b745-d76616cab570"
+			]
+		},
+		{
+			"id": "4fa34f4b-8c10-4a98-b059-0419394b499a",
+			"orgUnit": "R",
+			"orgValue": "REQMX_APPROVAL_LGT2",
+			"amountFrom": 0,
+			"amountTo": 0,
+			"operation": "A",
+			"taskType": [],
+			"orgId": "339b8fa1-891b-47cb-aedd-7efc1c94f722",
+			"taskAction": [
+				"1aeab36b-5188-4d90-b19f-c2dd40ae490b"
+			]
+		},
+		{
+			"id": "9671a401-3962-4e65-9b40-b02874253dfa",
+			"orgUnit": "R",
+			"orgValue": "REQMX_APPROVAL_DIR2",
+			"amountFrom": 0,
+			"amountTo": 0,
+			"operation": "A",
+			"taskType": [],
+			"orgId": "4f069756-d8c3-4404-b52f-8ac31dc01b58",
+			"taskAction": [
+				"a2f45323-b5d1-4320-9305-c9d155068d4f"
+			]
+		},
+		{
+			"id": "03d80d5e-70f4-41a2-c078-b77a1554fe8e",
+			"orgUnit": "R",
+			"orgValue": "REQMX_APPROVAL_EHS",
+			"amountFrom": 0,
+			"amountTo": 0,
+			"operation": "A",
+			"taskType": [],
+			"orgId": "c7c5f78c-9800-46d6-bb1f-644ac5263b9d",
+			"taskAction": [
+				"2b7b0501-b4cc-48cc-a360-db2a9fec2b25"
+			]
+		},
+		{
+			"id": "33df33fb-646f-4830-cdf3-ead708b68041",
+			"orgUnit": "R",
+			"orgValue": "REQMX_MASTERDATA",
+			"amountFrom": 0,
+			"amountTo": 0,
+			"operation": "A",
+			"taskType": [],
+			"orgId": "13107d1c-6356-4000-830a-c73568e13d59",
+			"taskAction": [
+				"1bbec01b-ff8f-4a7e-979a-63eb99750659"
+			]
+		},
+		{
+			"id": "0fdaa000-7cb9-4069-9e9b-58609e868ed3",
+			"orgUnit": "R",
+			"orgValue": "REQMX_APPROVAL_PUR",
+			"amountFrom": 0,
+			"amountTo": 0,
+			"operation": "A",
+			"taskType": [],
+			"orgId": "35403d02-742b-48f8-ac3d-6d85e394d51e",
+			"taskAction": [
+				"74b907ef-bd85-4dc9-ad1f-f6415cc59ead"
+			]
+		}
+	],
+	"name": "REQMX_APPROVERS",
+	"description": null,
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c"
+}

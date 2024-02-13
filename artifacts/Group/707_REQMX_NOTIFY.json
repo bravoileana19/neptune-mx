@@ -1,0 +1,15 @@
+{
+	"id": "f113de6c-83de-42b3-a3fb-55ece3c85643",
+	"createdAt": "2023-09-26T20:09:04.000Z",
+	"createdBy": "o0930847",
+	"name": "707_REQMX_NOTIFY",
+	"description": null,
+	"ver": "23.9.26.159",
+	"parent": null,
+	"isExternal": false,
+	"idpSource": "local",
+	"idpSourceId": null,
+	"idpSourceKey": null,
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c",
+	"roles": []
+}

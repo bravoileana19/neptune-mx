@@ -1,0 +1,12 @@
+{
+	"id": "276ff196-e46b-4ea7-b68e-e7246d713e1d",
+	"createdAt": "2023-09-26T19:19:17.000Z",
+	"createdBy": "o0930847",
+	"translation": null,
+	"name": "SGSM-LGT-MX-REQ-REJECT",
+	"description": "Solicitud de Codigo MX Rechazada",
+	"content": "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\"><link href=\"http://dev.mx-dxp.ids.saint-gobain.net:8080/public/editor/suneditor.min.css\" rel=\"stylesheet\"></head><body class=\"sun-editor-editable\" style=\"\" ><div style=\"padding-top: 5px;padding-bottom: 5px; color: #A81921\"><h3>Neptune MX Request</h3><p> <strong> La siguiente solicitud de codigo MX ha sido rechazada</strong></p> <table style=\"border: 1px solid #A81921;border-collapse:collapse; text-align:center; width: 100%;\">                                    <tbody> <tr> <th style=\"color:#ffffff;background:#A81921\">                                                                                          <div>Folio</div> </th> <th style=\"color:#ffffff;background:#A81921\">                                                                                          <div>Planta</div> </th> <th style=\"color:#ffffff;background:#A81921\">                                                                                          <div>Tipo</div> </th> <th style=\"color:#ffffff;background:#A81921\">                                                                                          <div>Clasificacion</div> </th> <th style=\"color:#ffffff;background:#A81921\">                                                                                          <div>Tipo de Material</div> </th> <th style=\"color:#ffffff;background:#A81921\">                                                                                          <div>Solicitante</div> </th> <th style=\"color:#ffffff;background:#A81921\">                                                                                          <div>Fecha de Solicitud</div> </th> </tr> <tr> <td> <div>{=folio}</div> </td> <td> <div>{=planta}</div> </td> <td> <div>{=tipo}</div> </td> <td> <div>{=clasificacion}</div> </td> <td> <div>{=tipo_material}</div> </td> <td> <div>{=solicitante}</div> </td> <td> <div>{=fecha_solicitud}</div> </td> </tr> </tbody> </table></div><p></p></body></html>",
+	"ver": "23.9.26.1834",
+	"type": "template",
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c"
+}

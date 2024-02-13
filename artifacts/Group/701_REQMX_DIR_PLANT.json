@@ -1,0 +1,15 @@
+{
+	"id": "66c1d9c6-2a63-4c8a-9a65-37c1758362d8",
+	"createdAt": "2023-09-24T06:58:28.000Z",
+	"createdBy": "o0930847",
+	"name": "701_REQMX_DIR_PLANT",
+	"description": null,
+	"ver": "23.9.24.210",
+	"parent": null,
+	"isExternal": false,
+	"idpSource": "local",
+	"idpSourceId": null,
+	"idpSourceKey": null,
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c",
+	"roles": []
+}

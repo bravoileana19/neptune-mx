@@ -1,0 +1,15 @@
+{
+	"id": "99788eba-668b-4d3d-972f-1ba58bd79dbc",
+	"createdAt": "2023-09-12T00:00:40.000Z",
+	"createdBy": "o0930847",
+	"name": "REQMX_VIEWER",
+	"description": null,
+	"ver": "24.1.25.1653",
+	"parent": null,
+	"isExternal": false,
+	"idpSource": "local",
+	"idpSourceId": null,
+	"idpSourceKey": null,
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c",
+	"roles": []
+}

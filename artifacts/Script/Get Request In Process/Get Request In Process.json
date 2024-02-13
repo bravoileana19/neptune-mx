@@ -1,0 +1,31 @@
+{
+	"id": "e98fdba6-557e-4b15-b95b-aedf33ca5a33",
+	"createdAt": "2023-09-08T15:03:45.000Z",
+	"createdBy": "o0930847",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "16a9ee67-3658-4595-82d7-9e05ec73a068",
+			"name": "grl_mx_request",
+			"contextname": "grl_mx_request"
+		},
+		{
+			"id": "698f4259-b1dc-4eb3-a180-a200e28478fd",
+			"name": "sgsmdig_main_bu",
+			"contextname": "sgsmdig_main_bu"
+		}
+	],
+	"apis": [],
+	"name": "Get Request In Process",
+	"ver": "23.9.25.1024",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "894f114c-d395-4a4d-88b0-c269ed5081b9",
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c"
+}

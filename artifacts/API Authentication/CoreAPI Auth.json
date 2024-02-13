@@ -1,0 +1,27 @@
+{
+	"id": "4f04392b-3f58-49d2-948b-62455fcb8c39",
+	"createdAt": "2023-09-13T17:41:10.000Z",
+	"createdBy": "o0930847",
+	"headers": [],
+	"details": {
+		"subject": {},
+		"headers": [],
+		"username": "O0930847",
+		"password": "a69f92a2603e4f449f5aeb1fbf5b",
+		"secret": ""
+	},
+	"azureRelayDetails": {
+		"ns": "",
+		"path": "",
+		"keyRule": "",
+		"key": "",
+		"apKey": ""
+	},
+	"name": "CoreAPI Auth",
+	"description": null,
+	"type": "basic",
+	"useCloudConnector": false,
+	"cloudConnectorType": null,
+	"ver": "23.9.13.1241",
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c"
+}

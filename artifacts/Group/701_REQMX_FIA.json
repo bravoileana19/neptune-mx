@@ -1,0 +1,15 @@
+{
+	"id": "879c4975-7734-4809-8b0b-6dc8c8ef940d",
+	"createdAt": "2023-10-25T19:18:03.000Z",
+	"createdBy": "o0930847",
+	"name": "701_REQMX_FIA",
+	"description": null,
+	"ver": "23.10.25.1423",
+	"parent": null,
+	"isExternal": false,
+	"idpSource": "local",
+	"idpSourceId": null,
+	"idpSourceKey": null,
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c",
+	"roles": []
+}

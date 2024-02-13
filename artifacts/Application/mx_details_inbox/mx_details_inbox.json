@@ -1,0 +1,4860 @@
+{
+	"id": "8f2c0b35-1561-4300-a62c-6586b0463e4c",
+	"createdAt": "2023-08-29T18:26:11.000Z",
+	"createdBy": "o0930847",
+	"objects": [
+		{
+			"fieldNo": "c2b8970b-cffc-4274-f1d8-834ae103bf5a",
+			"fieldName": "Shell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "758cf7dc-d8d3-412b-cdb0-3ac2467d4236",
+					"fieldName": "App",
+					"fieldParent": "c2b8970b-cffc-4274-f1d8-834ae103bf5a",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "e4349a81-776f-49c5-e3dd-c2b31ed0c316",
+							"fieldName": "DetailsPage",
+							"fieldParent": "758cf7dc-d8d3-412b-cdb0-3ac2467d4236",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "SGSMLOG_MX_API_SCRIPT>Get Request By Folio",
+							"bindingType": "u",
+							"bindingSource": "API",
+							"bindingParentID": "c1e2d8f7-0490-4076-858f-5e006298c1af",
+							"bindingPathID": "87a3026b-0dbb-42ce-d30c-a57bae8dc03e",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "showHeader",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "showFooter",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "1d712bb8-9e0d-4f8d-88ea-fdee21ca25e8",
+									"fieldName": "oBarCustomHeader",
+									"fieldParent": "e4349a81-776f-49c5-e3dd-c2b31ed0c316",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"customComponent": false,
+									"disabled": true,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setCustomHeader",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "cda19b34-8cec-4b8a-a6cc-1b90cc5135f0",
+											"fieldName": "Middle",
+											"fieldParent": "1d712bb8-9e0d-4f8d-88ea-fdee21ca25e8",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"customComponent": false,
+											"disabled": true,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentMiddle",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "8f7dca41-1456-48c8-bb16-db16136652c1",
+													"fieldName": "Title",
+													"fieldParent": "cda19b34-8cec-4b8a-a6cc-1b90cc5135f0",
+													"fieldType": "sap.m.Title",
+													"script": "",
+													"customComponent": false,
+													"disabled": true,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "textAlign",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Detalle de Solicitud",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "b10bc8eb-ec51-4df2-cf9c-0e14b148094b",
+											"fieldName": "Right",
+											"fieldParent": "1d712bb8-9e0d-4f8d-88ea-fdee21ca25e8",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"customComponent": false,
+											"disabled": true,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "8cc5a887-edf7-437e-8115-04609d867361",
+									"fieldName": "PanelClasificacion",
+									"fieldParent": "e4349a81-776f-49c5-e3dd-c2b31ed0c316",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClassPadding",
+											"grouping": "Properties",
+											"value": "sapUiNoContentPadding",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "Validacion de Clasificacion",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "3b722bee-86e2-4508-b1f4-51c1f1d478ce",
+											"fieldName": "SimpleForm",
+											"fieldParent": "8cc5a887-edf7-437e-8115-04609d867361",
+											"fieldType": "sap.ui.layout.form.SimpleForm",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "layout",
+													"grouping": "Properties",
+													"value": "ResponsiveLayout",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "editable",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "66143d76-1f4d-42ed-979e-8211383f3ebd",
+													"fieldName": "Label24",
+													"fieldParent": "3b722bee-86e2-4508-b1f4-51c1f1d478ce",
+													"fieldType": "sap.m.Label",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "textAlign",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Clasificacion",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "design",
+															"grouping": "Properties",
+															"value": "Bold",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "fd3dc5f9-6c9b-4932-a718-ad7810682725",
+													"fieldName": "RadioButtonGroup",
+													"fieldParent": "3b722bee-86e2-4508-b1f4-51c1f1d478ce",
+													"fieldType": "sap.m.RadioButtonGroup",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "textDirection",
+															"grouping": "Properties",
+															"value": "Inherit",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "columns",
+															"grouping": "Properties",
+															"value": "4",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "671c0e00-b664-42cf-cf22-44f9a97096d9",
+															"fieldName": "RadioButtonA",
+															"fieldParent": "fd3dc5f9-6c9b-4932-a718-ad7810682725",
+															"fieldType": "sap.m.RadioButton",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "A",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "0ca17f89-615d-478e-992b-5a19f7a25d89",
+															"fieldName": "RadioButtonB",
+															"fieldParent": "fd3dc5f9-6c9b-4932-a718-ad7810682725",
+															"fieldType": "sap.m.RadioButton",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "B",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "76c4e39c-431b-430a-be96-c18b56a2daeb",
+															"fieldName": "RadioButtonC",
+															"fieldParent": "fd3dc5f9-6c9b-4932-a718-ad7810682725",
+															"fieldType": "sap.m.RadioButton",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "C",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "5b667a85-5609-4eab-9082-8ddc89a92e83",
+															"fieldName": "RadioButtonO",
+															"fieldParent": "fd3dc5f9-6c9b-4932-a718-ad7810682725",
+															"fieldType": "sap.m.RadioButton",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "O",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "db097ea8-7ee1-40fe-bbb3-6f490a95ee54",
+									"fieldName": "PanelCompras",
+									"fieldParent": "e4349a81-776f-49c5-e3dd-c2b31ed0c316",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClassPadding",
+											"grouping": "Properties",
+											"value": "sapUiNoContentPadding",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "Ingreso de Precios y Proveedor",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "1897e491-ea5b-4ffa-bf02-c50e78a81a77",
+											"fieldName": "SimpleForm1",
+											"fieldParent": "db097ea8-7ee1-40fe-bbb3-6f490a95ee54",
+											"fieldType": "sap.ui.layout.form.SimpleForm",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "1db60761-37d0-4ee0-b0de-4754aaca2ff2",
+													"fieldName": "Row10",
+													"fieldParent": "1897e491-ea5b-4ffa-bf02-c50e78a81a77",
+													"fieldType": "nep.bootstrap.Row",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "f54d3777-f614-48cf-c2fb-e870c20d63da",
+															"fieldName": "Column19",
+															"fieldParent": "1db60761-37d0-4ee0-b0de-4754aaca2ff2",
+															"fieldType": "nep.bootstrap.Col",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "062e3c26-8813-431d-a963-7851690e1c87",
+																	"fieldName": "LblPrecio",
+																	"fieldParent": "f54d3777-f614-48cf-c2fb-e870c20d63da",
+																	"fieldType": "sap.m.Label",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "width",
+																			"grouping": "Properties",
+																			"value": "100%",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "textAlign",
+																			"grouping": "Properties",
+																			"value": "Center",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Precio",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "design",
+																			"grouping": "Properties",
+																			"value": "Bold",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "9c67bea0-7f08-42e9-be33-7360f221a0a3",
+																	"fieldName": "InputPrecio",
+																	"fieldParent": "f54d3777-f614-48cf-c2fb-e870c20d63da",
+																	"fieldType": "sap.m.Input",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "type",
+																			"grouping": "Properties",
+																			"value": "Number",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "required",
+																			"grouping": "Properties",
+																			"value": "true",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "51c49b6d-ec6a-4780-c137-5d1bf07f95ce",
+															"fieldName": "Column18",
+															"fieldParent": "1db60761-37d0-4ee0-b0de-4754aaca2ff2",
+															"fieldType": "nep.bootstrap.Col",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "de206d00-2a6b-4bf4-9d22-880f85ae676d",
+																	"fieldName": "LblEntrega",
+																	"fieldParent": "51c49b6d-ec6a-4780-c137-5d1bf07f95ce",
+																	"fieldType": "sap.m.Label",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "width",
+																			"grouping": "Properties",
+																			"value": "100%",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "textAlign",
+																			"grouping": "Properties",
+																			"value": "Center",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Plazo de entrega",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "design",
+																			"grouping": "Properties",
+																			"value": "Bold",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "5282db76-ee24-44e8-f316-65d23b1e7b75",
+																	"fieldName": "InputEntrega",
+																	"fieldParent": "51c49b6d-ec6a-4780-c137-5d1bf07f95ce",
+																	"fieldType": "sap.m.Input",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "type",
+																			"grouping": "Properties",
+																			"value": "Text",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "required",
+																			"grouping": "Properties",
+																			"value": "true",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "b476fac3-a8fa-43a8-8530-8db6c34e5554",
+															"fieldName": "Column17",
+															"fieldParent": "1db60761-37d0-4ee0-b0de-4754aaca2ff2",
+															"fieldType": "nep.bootstrap.Col",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "c1ae2524-6d1f-41b8-80a4-7b0afa7d717b",
+																	"fieldName": "LblMoneda",
+																	"fieldParent": "b476fac3-a8fa-43a8-8530-8db6c34e5554",
+																	"fieldType": "sap.m.Label",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "width",
+																			"grouping": "Properties",
+																			"value": "100%",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "textAlign",
+																			"grouping": "Properties",
+																			"value": "Center",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Moneda",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "design",
+																			"grouping": "Properties",
+																			"value": "Bold",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "b0b1b41a-54a9-4299-d002-14635e6799bb",
+																	"fieldName": "SelectMoneda",
+																	"fieldParent": "b476fac3-a8fa-43a8-8530-8db6c34e5554",
+																	"fieldType": "sap.m.Select",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "width",
+																			"grouping": "Properties",
+																			"value": "100%",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "required",
+																			"grouping": "Properties",
+																			"value": "true",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "9896d8fc-1f14-4093-829e-8a22c6a21e57",
+																			"fieldName": "ListItem",
+																			"fieldParent": "b0b1b41a-54a9-4299-d002-14635e6799bb",
+																			"fieldType": "sap.ui.core.ListItem",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "USD",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "key",
+																					"grouping": "Properties",
+																					"value": "USD",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "69822a14-edaf-4261-b440-242edf00c8eb",
+																			"fieldName": "ListItem1",
+																			"fieldParent": "b0b1b41a-54a9-4299-d002-14635e6799bb",
+																			"fieldType": "sap.ui.core.ListItem",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "MXN",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "key",
+																					"grouping": "Properties",
+																					"value": "MXN",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "263ecb89-ac48-4d39-b18c-a4bee3622c03",
+																			"fieldName": "ListItem2",
+																			"fieldParent": "b0b1b41a-54a9-4299-d002-14635e6799bb",
+																			"fieldType": "sap.ui.core.ListItem",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "EUR",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "key",
+																					"grouping": "Properties",
+																					"value": "EUR",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"fieldNo": "2abb3678-4c97-4756-f521-a40d42af6042",
+															"fieldName": "Column20",
+															"fieldParent": "1db60761-37d0-4ee0-b0de-4754aaca2ff2",
+															"fieldType": "nep.bootstrap.Col",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "645c1fe6-5c64-4c11-d0e2-156efb37e9b3",
+																	"fieldName": "LblProveedor",
+																	"fieldParent": "2abb3678-4c97-4756-f521-a40d42af6042",
+																	"fieldType": "sap.m.Label",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "width",
+																			"grouping": "Properties",
+																			"value": "100%",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "textAlign",
+																			"grouping": "Properties",
+																			"value": "Center",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "# Proveedor",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "design",
+																			"grouping": "Properties",
+																			"value": "Bold",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "994953e0-d7e9-4564-e8ee-63cd382880ce",
+																	"fieldName": "InputProveedor",
+																	"fieldParent": "2abb3678-4c97-4756-f521-a40d42af6042",
+																	"fieldType": "sap.m.Input",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "type",
+																			"grouping": "Properties",
+																			"value": "Text",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "required",
+																			"grouping": "Properties",
+																			"value": "true",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "e7160f4b-b66f-4849-b69c-cd38af5187ee",
+									"fieldName": "PanelPlaneacion",
+									"fieldParent": "e4349a81-776f-49c5-e3dd-c2b31ed0c316",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClassPadding",
+											"grouping": "Properties",
+											"value": "sapUiNoContentPadding",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "Ingreso de Minimos y Maximos",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "9a1a379c-c2f3-4880-9241-d02cc23cfb93",
+											"fieldName": "SimpleForm2",
+											"fieldParent": "e7160f4b-b66f-4849-b69c-cd38af5187ee",
+											"fieldType": "sap.ui.layout.form.SimpleForm",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "b8a321ab-55eb-465e-af68-c39bf46aa88d",
+													"fieldName": "Row7",
+													"fieldParent": "9a1a379c-c2f3-4880-9241-d02cc23cfb93",
+													"fieldType": "nep.bootstrap.Row",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "80bdf181-08ec-4640-a97d-a15ab6fe3e46",
+															"fieldName": "Column23",
+															"fieldParent": "b8a321ab-55eb-465e-af68-c39bf46aa88d",
+															"fieldType": "nep.bootstrap.Col",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "6a5feff2-372c-4732-9499-f3189844dc56",
+																	"fieldName": "LblMinimo",
+																	"fieldParent": "80bdf181-08ec-4640-a97d-a15ab6fe3e46",
+																	"fieldType": "sap.m.Label",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "width",
+																			"grouping": "Properties",
+																			"value": "100%",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "textAlign",
+																			"grouping": "Properties",
+																			"value": "Center",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Stock minimo",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "design",
+																			"grouping": "Properties",
+																			"value": "Bold",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "9d00524f-1503-4b43-bfda-64c569d7ebbe",
+																	"fieldName": "InputMinimo",
+																	"fieldParent": "80bdf181-08ec-4640-a97d-a15ab6fe3e46",
+																	"fieldType": "sap.m.Input",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "type",
+																			"grouping": "Properties",
+																			"value": "Number",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "required",
+																			"grouping": "Properties",
+																			"value": "true",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "1d0021a2-9dd2-481e-cc3b-6b48f6021381",
+															"fieldName": "Column22",
+															"fieldParent": "b8a321ab-55eb-465e-af68-c39bf46aa88d",
+															"fieldType": "nep.bootstrap.Col",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "d62893ed-5d99-40d3-be4d-15c1fa8b0da5",
+																	"fieldName": "LblMaximo",
+																	"fieldParent": "1d0021a2-9dd2-481e-cc3b-6b48f6021381",
+																	"fieldType": "sap.m.Label",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "width",
+																			"grouping": "Properties",
+																			"value": "100%",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "textAlign",
+																			"grouping": "Properties",
+																			"value": "Center",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Stock maximo",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "design",
+																			"grouping": "Properties",
+																			"value": "Bold",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "6077962e-f7da-4a0e-c771-67440c3e4b76",
+																	"fieldName": "InputMaximo",
+																	"fieldParent": "1d0021a2-9dd2-481e-cc3b-6b48f6021381",
+																	"fieldType": "sap.m.Input",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "type",
+																			"grouping": "Properties",
+																			"value": "Number",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "required",
+																			"grouping": "Properties",
+																			"value": "true",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "ad1afad1-68b2-4ee2-f8fa-9eb4b832a412",
+															"fieldName": "Column21",
+															"fieldParent": "b8a321ab-55eb-465e-af68-c39bf46aa88d",
+															"fieldType": "nep.bootstrap.Col",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "2126e40f-d41c-4e03-98fb-eeba91090c90",
+																	"fieldName": "LblReorden",
+																	"fieldParent": "ad1afad1-68b2-4ee2-f8fa-9eb4b832a412",
+																	"fieldType": "sap.m.Label",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "width",
+																			"grouping": "Properties",
+																			"value": "100%",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "textAlign",
+																			"grouping": "Properties",
+																			"value": "Center",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Punto de Reorden",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "design",
+																			"grouping": "Properties",
+																			"value": "Bold",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "7dbe3bc6-40b6-493b-d52c-ad78dd674fb6",
+																	"fieldName": "InputReorden",
+																	"fieldParent": "ad1afad1-68b2-4ee2-f8fa-9eb4b832a412",
+																	"fieldType": "sap.m.Input",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "type",
+																			"grouping": "Properties",
+																			"value": "Text",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "required",
+																			"grouping": "Properties",
+																			"value": "true",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "de16c54d-d674-4445-ad89-96f241f2a5bf",
+									"fieldName": "PanelDatosMaestros",
+									"fieldParent": "e4349a81-776f-49c5-e3dd-c2b31ed0c316",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClassPadding",
+											"grouping": "Properties",
+											"value": "sapUiNoContentPadding",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "Ingreso de Codigo MX",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "3e6626e5-e81b-4d1b-acce-c847f48ad822",
+											"fieldName": "SimpleForm3",
+											"fieldParent": "de16c54d-d674-4445-ad89-96f241f2a5bf",
+											"fieldType": "sap.ui.layout.form.SimpleForm",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "25905a40-f37a-4d17-c3a2-655b00633ebc",
+													"fieldName": "Row8",
+													"fieldParent": "3e6626e5-e81b-4d1b-acce-c847f48ad822",
+													"fieldType": "nep.bootstrap.Row",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "e25a96c3-3468-421b-925a-e0dbd32e7845",
+															"fieldName": "Column25",
+															"fieldParent": "25905a40-f37a-4d17-c3a2-655b00633ebc",
+															"fieldType": "nep.bootstrap.Col",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": []
+														},
+														{
+															"fieldNo": "07b8d884-c2eb-475b-8ded-14c81710aa9d",
+															"fieldName": "Column24",
+															"fieldParent": "25905a40-f37a-4d17-c3a2-655b00633ebc",
+															"fieldType": "nep.bootstrap.Col",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "14faff5f-6097-40f0-97f5-12b4575d2a17",
+																	"fieldName": "LblCodigoMX",
+																	"fieldParent": "07b8d884-c2eb-475b-8ded-14c81710aa9d",
+																	"fieldType": "sap.m.Label",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "width",
+																			"grouping": "Properties",
+																			"value": "100%",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "textAlign",
+																			"grouping": "Properties",
+																			"value": "Center",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Codigo MX",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "design",
+																			"grouping": "Properties",
+																			"value": "Bold",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "375ce1e1-8fbb-4460-b40a-65285df43ef0",
+																	"fieldName": "InputCodigoMX",
+																	"fieldParent": "07b8d884-c2eb-475b-8ded-14c81710aa9d",
+																	"fieldType": "sap.m.Input",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "type",
+																			"grouping": "Properties",
+																			"value": "Text",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "required",
+																			"grouping": "Properties",
+																			"value": "true",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "f1d39617-2204-46b6-c635-a9135f9e3930",
+															"fieldName": "Column26",
+															"fieldParent": "25905a40-f37a-4d17-c3a2-655b00633ebc",
+															"fieldType": "nep.bootstrap.Col",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "533cfbff-7965-4cf5-a5c2-a77f333567f1",
+									"fieldName": "Row13",
+									"fieldParent": "e4349a81-776f-49c5-e3dd-c2b31ed0c316",
+									"fieldType": "nep.bootstrap.Row",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "2fa0b8ab-cd99-4330-cba9-6e20cd5735eb",
+											"fieldName": "Column2",
+											"fieldParent": "533cfbff-7965-4cf5-a5c2-a77f333567f1",
+											"fieldType": "nep.bootstrap.Col",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": []
+										},
+										{
+											"fieldNo": "954b1e0c-0faf-4bbe-c24a-49e40f975faa",
+											"fieldName": "Column1",
+											"fieldParent": "533cfbff-7965-4cf5-a5c2-a77f333567f1",
+											"fieldType": "nep.bootstrap.Col",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "b68eadf0-7a08-4757-c260-0dedac4c4b1c",
+													"fieldName": "BtnGuardarDatos",
+													"fieldParent": "954b1e0c-0faf-4bbe-c24a-49e40f975faa",
+													"fieldType": "nep.bootstrap.Button",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "saveData()",
+															"script": "saveData()",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://save",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Guardar Datos",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "size",
+															"grouping": "Properties",
+															"value": "Small",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "backgroundColor",
+															"grouping": "Properties",
+															"value": "Primary",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "textAlignment",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "100%",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "988b7cd7-fac9-40f5-f040-17ec35a8c989",
+											"fieldName": "Column3",
+											"fieldParent": "533cfbff-7965-4cf5-a5c2-a77f333567f1",
+											"fieldType": "nep.bootstrap.Col",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "f491692e-cc80-4f29-f984-bac3c231cb32",
+									"fieldName": "PanelDetails",
+									"fieldParent": "e4349a81-776f-49c5-e3dd-c2b31ed0c316",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClassPadding",
+											"grouping": "Properties",
+											"value": "sapUiNoContentPadding",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "Detalles de la Solicitud",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "9831ed12-417b-42be-899a-ff5db384f197",
+											"fieldName": "RowFlow",
+											"fieldParent": "f491692e-cc80-4f29-f984-bac3c231cb32",
+											"fieldType": "nep.bootstrap.Row",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "a686b1cc-7839-4fdf-f25c-1687ba8bbab3",
+													"fieldName": "Column",
+													"fieldParent": "9831ed12-417b-42be-899a-ff5db384f197",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "ed538d48-7e11-4f6e-a8d7-fe5d78a7550d",
+															"fieldName": "HTMLObject",
+															"fieldParent": "a686b1cc-7839-4fdf-f25c-1687ba8bbab3",
+															"fieldType": "sap.ui.core.HTML",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "1c5be8cd-689d-4dcb-fbcc-d495f96e9400",
+																	"fieldName": "HTML",
+																	"fieldParent": "ed538d48-7e11-4f6e-a8d7-fe5d78a7550d",
+																	"fieldType": "neptune.Html",
+																	"script": "file://script/neptune.Html/HTML.script",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": []
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "eae11a1d-f53e-4ac3-963f-27b63b9ce808",
+											"fieldName": "Row",
+											"fieldParent": "f491692e-cc80-4f29-f984-bac3c231cb32",
+											"fieldType": "nep.bootstrap.Row",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "margin",
+													"grouping": "Properties",
+													"value": "MarginTop1",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "ecd5f6b3-c221-4868-9e6a-88a4707125e9",
+													"fieldName": "ColumnFolio",
+													"fieldParent": "eae11a1d-f53e-4ac3-963f-27b63b9ce808",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "83b48f26-fecb-4cea-974c-8475e74df565",
+															"fieldName": "Label1",
+															"fieldParent": "ecd5f6b3-c221-4868-9e6a-88a4707125e9",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Folio",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "b952f831-7439-4913-933f-d5b85192fd44",
+															"fieldName": "Text",
+															"fieldParent": "ecd5f6b3-c221-4868-9e6a-88a4707125e9",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/grl_folio}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlignment",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "fontWeight",
+																	"grouping": "Properties",
+																	"value": "NormalStyle",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Small",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "24be807a-b4df-4baf-c152-0b59da8c1a47",
+															"fieldName": "Text23",
+															"fieldParent": "ecd5f6b3-c221-4868-9e6a-88a4707125e9",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_folio}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "35a22c3e-1d5d-4fa5-8b85-165345e89bc3",
+													"fieldName": "ColumnPlanta",
+													"fieldParent": "eae11a1d-f53e-4ac3-963f-27b63b9ce808",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "1c0d452e-5016-4aed-dcca-4730c6e8c89c",
+															"fieldName": "Label",
+															"fieldParent": "35a22c3e-1d5d-4fa5-8b85-165345e89bc3",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Planta",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "3b00cd6a-9c4d-497a-f2b9-314523020e6e",
+															"fieldName": "Text1",
+															"fieldParent": "35a22c3e-1d5d-4fa5-8b85-165345e89bc3",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/grl_planta}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "32d4685c-e88a-4252-929d-4dac262e7f03",
+															"fieldName": "Text25",
+															"fieldParent": "35a22c3e-1d5d-4fa5-8b85-165345e89bc3",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/bu_Name}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "b72ed1a2-353d-4e0d-840e-147c2fe74570",
+													"fieldName": "ColumnTipoSolicitud",
+													"fieldParent": "eae11a1d-f53e-4ac3-963f-27b63b9ce808",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "acb5f0f7-c561-4f12-945a-a11706f5bcf4",
+															"fieldName": "Label2",
+															"fieldParent": "b72ed1a2-353d-4e0d-840e-147c2fe74570",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Tipo de Solicitud",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "888eb80f-0106-4f27-c105-4f65e27a1f94",
+															"fieldName": "Text2",
+															"fieldParent": "b72ed1a2-353d-4e0d-840e-147c2fe74570",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/grl_tipo_solicitud}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "0a72be86-702f-43a5-f30a-462fd3e45830",
+															"fieldName": "Text26",
+															"fieldParent": "b72ed1a2-353d-4e0d-840e-147c2fe74570",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_tipo_solicitud}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "a73d4ee9-e4cd-4bc9-9591-d3784d2c0a7f",
+													"fieldName": "ColumnCodigoRef",
+													"fieldParent": "eae11a1d-f53e-4ac3-963f-27b63b9ce808",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "9a14dc85-38f2-4d3f-d79e-7614242d40ad",
+															"fieldName": "LabelCodigoRef",
+															"fieldParent": "a73d4ee9-e4cd-4bc9-9591-d3784d2c0a7f",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Codigo de Referencia",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "94c6a8cd-20ab-4c2a-eb07-80cb33323f0f",
+															"fieldName": "Text3",
+															"fieldParent": "a73d4ee9-e4cd-4bc9-9591-d3784d2c0a7f",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/grl_codigo}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "bcaf4730-4932-4258-ab0d-387711d0b3de",
+															"fieldName": "TxtCodigoRef",
+															"fieldParent": "a73d4ee9-e4cd-4bc9-9591-d3784d2c0a7f",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{= ${/g_grl_tipo_solicitud} !== 'Alta' ? ${/g_grl_codigo} : 'N/A' }",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "2d82f899-d800-4ec5-89da-280b1ced5f82",
+											"fieldName": "Row1",
+											"fieldParent": "f491692e-cc80-4f29-f984-bac3c231cb32",
+											"fieldType": "nep.bootstrap.Row",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "margin",
+													"grouping": "Properties",
+													"value": "MarginTop3",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "2ab0492b-224e-403b-d971-7b6226b255b2",
+													"fieldName": "ColumnTipoMaterial",
+													"fieldParent": "2d82f899-d800-4ec5-89da-280b1ced5f82",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "9be61560-fa9f-4858-961c-9cf96350e5e7",
+															"fieldName": "Label4",
+															"fieldParent": "2ab0492b-224e-403b-d971-7b6226b255b2",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Tipo de Material",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "e1c8ad4f-8d43-4f13-a6e5-eeea3f63f1f9",
+															"fieldName": "Text4",
+															"fieldParent": "2ab0492b-224e-403b-d971-7b6226b255b2",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/grl_tipo_material}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "be18d0a8-4614-42a0-ea52-7de1f482c252",
+															"fieldName": "Text28",
+															"fieldParent": "2ab0492b-224e-403b-d971-7b6226b255b2",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_tipo_material}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "2a613585-639e-4344-cf51-74908286ef3c",
+													"fieldName": "ColumnGrupoArt",
+													"fieldParent": "2d82f899-d800-4ec5-89da-280b1ced5f82",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "f9d09091-2d4b-460f-f4f0-061706955836",
+															"fieldName": "Label5",
+															"fieldParent": "2a613585-639e-4344-cf51-74908286ef3c",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Grupo de Articulos",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "c4b143f3-5aa2-4062-cfdb-9a06f88bc566",
+															"fieldName": "Text5",
+															"fieldParent": "2a613585-639e-4344-cf51-74908286ef3c",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/grl_grupo_articulos}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "b4b69fe2-3f54-4f84-ae17-2a1ffb289c15",
+															"fieldName": "Text29",
+															"fieldParent": "2a613585-639e-4344-cf51-74908286ef3c",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_grupo_articulos}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "54ae2293-0ce4-4476-f486-291f63edfdae",
+													"fieldName": "ColumnDimensiones",
+													"fieldParent": "2d82f899-d800-4ec5-89da-280b1ced5f82",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "6c642a19-94c2-487f-e0b0-247bfabf792f",
+															"fieldName": "Label6",
+															"fieldParent": "54ae2293-0ce4-4476-f486-291f63edfdae",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Dimensiones",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "4b93a030-0ebe-4e3e-edae-3bad121cf05b",
+															"fieldName": "Text6",
+															"fieldParent": "54ae2293-0ce4-4476-f486-291f63edfdae",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/grl_dimensiones}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "e8e77e22-464e-4dfe-ee61-137c944a7390",
+															"fieldName": "Text30",
+															"fieldParent": "54ae2293-0ce4-4476-f486-291f63edfdae",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_dimensiones}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "8ea11273-e671-47ab-fdd5-3d95deed02e9",
+													"fieldName": "ColumnUMB",
+													"fieldParent": "2d82f899-d800-4ec5-89da-280b1ced5f82",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "e11e0ee9-a8f9-4b15-cdb8-a3589bc1c2e0",
+															"fieldName": "Label3",
+															"fieldParent": "8ea11273-e671-47ab-fdd5-3d95deed02e9",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Unidad de Medida",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "e0938e2d-d8bc-42bc-a801-1bc585cfaa22",
+															"fieldName": "Text27",
+															"fieldParent": "8ea11273-e671-47ab-fdd5-3d95deed02e9",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_umb}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "4b71d57a-667a-416d-be77-dae9f2c7726c",
+											"fieldName": "Row2",
+											"fieldParent": "f491692e-cc80-4f29-f984-bac3c231cb32",
+											"fieldType": "nep.bootstrap.Row",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "margin",
+													"grouping": "Properties",
+													"value": "MarginTop3",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "81cdd6b0-a810-42a9-d685-439c521a3655",
+													"fieldName": "ColumnEquipo",
+													"fieldParent": "4b71d57a-667a-416d-be77-dae9f2c7726c",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "b4e0cb76-4d5b-4d83-f196-d0fc7e38c1cc",
+															"fieldName": "Label8",
+															"fieldParent": "81cdd6b0-a810-42a9-d685-439c521a3655",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Equipo donde se usa",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "c5c385fb-d298-4f4d-e062-3b5566ecb0e9",
+															"fieldName": "Text9",
+															"fieldParent": "81cdd6b0-a810-42a9-d685-439c521a3655",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/grl_equipo}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "32895bfc-da4a-47ec-e653-31fc618a12e0",
+															"fieldName": "Text31",
+															"fieldParent": "81cdd6b0-a810-42a9-d685-439c521a3655",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_equipo}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "30648922-00ae-4f70-e5a3-8c0683f18cf2",
+													"fieldName": "ColumnClasificacion",
+													"fieldParent": "4b71d57a-667a-416d-be77-dae9f2c7726c",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "a48facf8-8a7c-486f-93dc-6c0d575c39b1",
+															"fieldName": "Label9",
+															"fieldParent": "30648922-00ae-4f70-e5a3-8c0683f18cf2",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Clasificacion",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "33565d14-7404-4d17-a22c-5b79621c40c2",
+															"fieldName": "Text7",
+															"fieldParent": "30648922-00ae-4f70-e5a3-8c0683f18cf2",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/grl_clasificacion}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "05e660ea-cc77-4543-d1a4-3c12dcc18eb3",
+															"fieldName": "InfoLabel",
+															"fieldParent": "30648922-00ae-4f70-e5a3-8c0683f18cf2",
+															"fieldType": "sap.tnt.InfoLabel",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_clasificacion}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "b71eef31-87bd-4064-b062-e1cb11f729ed",
+															"fieldName": "Text32",
+															"fieldParent": "30648922-00ae-4f70-e5a3-8c0683f18cf2",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_clasificacion}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "cbe16d2c-8b50-4b51-c5df-824253acd77b",
+													"fieldName": "ColumnArea",
+													"fieldParent": "4b71d57a-667a-416d-be77-dae9f2c7726c",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "48e4f170-6287-47c0-a3df-d1806bf9667e",
+															"fieldName": "Label7",
+															"fieldParent": "cbe16d2c-8b50-4b51-c5df-824253acd77b",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Area donde se usa",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "f88e1fee-810f-4471-90a4-fdd7675506d0",
+															"fieldName": "Text8",
+															"fieldParent": "cbe16d2c-8b50-4b51-c5df-824253acd77b",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/grl_area}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "02e176c8-ead2-4232-ad28-110214d56728",
+															"fieldName": "Text33",
+															"fieldParent": "cbe16d2c-8b50-4b51-c5df-824253acd77b",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_area}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "274305a9-ecef-4676-c84e-6f2568a84f20",
+													"fieldName": "ColumnConsumo",
+													"fieldParent": "4b71d57a-667a-416d-be77-dae9f2c7726c",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "8c9d6873-6e5f-46de-9192-f81a70662abc",
+															"fieldName": "Label10",
+															"fieldParent": "274305a9-ecef-4676-c84e-6f2568a84f20",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Consumo esperado al mes",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "eeaceb67-e59d-486b-f10b-ce755db66bae",
+															"fieldName": "Text10",
+															"fieldParent": "274305a9-ecef-4676-c84e-6f2568a84f20",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/grl_consumo}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "7e6c87dc-21fb-418d-c4b4-030972e85d32",
+															"fieldName": "Text34",
+															"fieldParent": "274305a9-ecef-4676-c84e-6f2568a84f20",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_consumo}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "5b8149e3-3f70-4997-96dc-917c3ee40574",
+											"fieldName": "Row14",
+											"fieldParent": "f491692e-cc80-4f29-f984-bac3c231cb32",
+											"fieldType": "nep.bootstrap.Row",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "margin",
+													"grouping": "Properties",
+													"value": "MarginTop3",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "e60da736-2c9b-4f06-9b09-13d1f6ad8491",
+													"fieldName": "ColumnDescripcion",
+													"fieldParent": "5b8149e3-3f70-4997-96dc-917c3ee40574",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "b3148ed4-4075-4be4-daa7-749a98ee2d43",
+															"fieldName": "Label14",
+															"fieldParent": "e60da736-2c9b-4f06-9b09-13d1f6ad8491",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Descripcion de material",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "90de8212-90de-4b1c-cffe-326453428bab",
+															"fieldName": "Text38",
+															"fieldParent": "e60da736-2c9b-4f06-9b09-13d1f6ad8491",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_descripcion}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "0531447a-cbbe-46c3-efba-6d46cc0a94c6",
+											"fieldName": "Row3",
+											"fieldParent": "f491692e-cc80-4f29-f984-bac3c231cb32",
+											"fieldType": "nep.bootstrap.Row",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "margin",
+													"grouping": "Properties",
+													"value": "MarginTop3",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "c8013cb0-7773-4bc5-c03a-75f06cff2db8",
+													"fieldName": "ColumnCaducidad",
+													"fieldParent": "0531447a-cbbe-46c3-efba-6d46cc0a94c6",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "e68133f5-e54d-4973-be69-b4397fec1d99",
+															"fieldName": "Label11",
+															"fieldParent": "c8013cb0-7773-4bc5-c03a-75f06cff2db8",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Tiene fecha de caducidad",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "ae29556c-4c46-47d8-ba1e-a90da8fd3bbf",
+															"fieldName": "Text11",
+															"fieldParent": "c8013cb0-7773-4bc5-c03a-75f06cff2db8",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/grl_caducidad}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "71f41e59-93e8-4cd1-cbf6-f55981b62abe",
+															"fieldName": "Text35",
+															"fieldParent": "c8013cb0-7773-4bc5-c03a-75f06cff2db8",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_caducidad}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "1c10894e-e3c5-4fe9-c5d7-a80fbce83900",
+													"fieldName": "ColumnHojaSeguridad",
+													"fieldParent": "0531447a-cbbe-46c3-efba-6d46cc0a94c6",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "7756dd40-e07c-4049-bf52-d06f79c6e8b4",
+															"fieldName": "Label12",
+															"fieldParent": "1c10894e-e3c5-4fe9-c5d7-a80fbce83900",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Requiere hoja de seguridad?",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "3e24a881-1174-4aa1-f7a5-4c0377336651",
+															"fieldName": "Text12",
+															"fieldParent": "1c10894e-e3c5-4fe9-c5d7-a80fbce83900",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/grl_hoja_seguridad}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "2741b4be-17a4-43e7-e274-7e72d49df0e9",
+															"fieldName": "Text36",
+															"fieldParent": "1c10894e-e3c5-4fe9-c5d7-a80fbce83900",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_hoja_seguridad}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "66ddd97d-5b9f-4234-a6d9-da91dc4f07c2",
+													"fieldName": "ColumnResguardo",
+													"fieldParent": "0531447a-cbbe-46c3-efba-6d46cc0a94c6",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "892b6a50-0068-4338-d008-7a7692fe764b",
+															"fieldName": "Label13",
+															"fieldParent": "66ddd97d-5b9f-4234-a6d9-da91dc4f07c2",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Resguardo especial?",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "9efcc971-8314-47b6-c2ed-569050aa3a2d",
+															"fieldName": "Text13",
+															"fieldParent": "66ddd97d-5b9f-4234-a6d9-da91dc4f07c2",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/grl_hoja_resguardo}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "d94171b1-7ae9-4e26-dc5c-f65a3a8cce0e",
+															"fieldName": "Text37",
+															"fieldParent": "66ddd97d-5b9f-4234-a6d9-da91dc4f07c2",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_hoja_resguardo}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "f53f3116-0abb-4ff1-9515-025e5d6a1b1e",
+											"fieldName": "Row4",
+											"fieldParent": "f491692e-cc80-4f29-f984-bac3c231cb32",
+											"fieldType": "nep.bootstrap.Row",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "margin",
+													"grouping": "Properties",
+													"value": "MarginTop3",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "5bbc030b-341d-477d-cf82-c6d972f90b97",
+													"fieldName": "ColumnJustificacion",
+													"fieldParent": "f53f3116-0abb-4ff1-9515-025e5d6a1b1e",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "0f0c0911-96f6-488b-9dcb-f0bc4428d80b",
+															"fieldName": "LabelJustificacion",
+															"fieldParent": "5bbc030b-341d-477d-cf82-c6d972f90b97",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Justificacion en caso de Clasificacion A",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "a9f8c7fc-164e-4746-e921-b16b2182ec92",
+															"fieldName": "Text14",
+															"fieldParent": "5bbc030b-341d-477d-cf82-c6d972f90b97",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/grl_justificacion}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "399e6dce-844b-4777-9688-18469d0ba329",
+															"fieldName": "TxtJustificacion",
+															"fieldParent": "5bbc030b-341d-477d-cf82-c6d972f90b97",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_justificacion}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "33447ce0-525e-452d-f1d0-bfb50fff0f74",
+											"fieldName": "Row5",
+											"fieldParent": "f491692e-cc80-4f29-f984-bac3c231cb32",
+											"fieldType": "nep.bootstrap.Row",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "margin",
+													"grouping": "Properties",
+													"value": "MarginTop3",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "342ea7f5-5aa2-4180-9b9a-6c2fa4459262",
+													"fieldName": "ColumnComentarios",
+													"fieldParent": "33447ce0-525e-452d-f1d0-bfb50fff0f74",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "dad3695e-fc64-4463-c5ea-fbedf36f25e0",
+															"fieldName": "Label15",
+															"fieldParent": "342ea7f5-5aa2-4180-9b9a-6c2fa4459262",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Comentarios",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "e20574c3-da10-41d0-d3a7-355e41a5a738",
+															"fieldName": "Text15",
+															"fieldParent": "342ea7f5-5aa2-4180-9b9a-6c2fa4459262",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/grl_comentarios}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "7cc23e4d-a359-435d-e127-97b1b7bb44a1",
+															"fieldName": "Text39",
+															"fieldParent": "342ea7f5-5aa2-4180-9b9a-6c2fa4459262",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_comentarios}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "6194f4aa-4ead-4793-db7f-a68896c31d5c",
+											"fieldName": "Row9",
+											"fieldParent": "f491692e-cc80-4f29-f984-bac3c231cb32",
+											"fieldType": "nep.bootstrap.Row",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "margin",
+													"grouping": "Properties",
+													"value": "MarginTop3",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "79ba5281-1849-4250-8f3e-69304ae1a3bf",
+													"fieldName": "ColumnPrecio",
+													"fieldParent": "6194f4aa-4ead-4793-db7f-a68896c31d5c",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "6fa9673a-1e0b-4916-92a0-388d460f9024",
+															"fieldName": "Label25",
+															"fieldParent": "79ba5281-1849-4250-8f3e-69304ae1a3bf",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Precio",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "c4797b88-00b5-409e-b81a-ff46422976df",
+															"fieldName": "Text16",
+															"fieldParent": "79ba5281-1849-4250-8f3e-69304ae1a3bf",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_precio}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "e7ab1a02-7ac9-4afa-c7a4-ec7d1a5a72df",
+															"fieldName": "Text40",
+															"fieldParent": "79ba5281-1849-4250-8f3e-69304ae1a3bf",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_precio}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "af679cfe-2afd-493b-dbe2-a750c6a13cbd",
+													"fieldName": "ColumnPlazo",
+													"fieldParent": "6194f4aa-4ead-4793-db7f-a68896c31d5c",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "33b99392-6c9d-4675-d756-ebf239caa519",
+															"fieldName": "Label26",
+															"fieldParent": "af679cfe-2afd-493b-dbe2-a750c6a13cbd",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Plazo de entrega",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "0bc75c54-55b9-4202-c424-225e9579e180",
+															"fieldName": "Text17",
+															"fieldParent": "af679cfe-2afd-493b-dbe2-a750c6a13cbd",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_plazo_entrega}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "18733961-4742-417a-fb99-3bbcb219df30",
+															"fieldName": "Text41",
+															"fieldParent": "af679cfe-2afd-493b-dbe2-a750c6a13cbd",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_plazo_entrega}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "3a296abe-a40a-45cc-c3c3-f1a751cc0c69",
+													"fieldName": "ColumnMoneda",
+													"fieldParent": "6194f4aa-4ead-4793-db7f-a68896c31d5c",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "0f728ce8-9f57-4bf0-8bc6-d8b32d775d8e",
+															"fieldName": "Label27",
+															"fieldParent": "3a296abe-a40a-45cc-c3c3-f1a751cc0c69",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Moneda",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "e4dc7a01-0196-4b09-8dfb-63dfda3bad08",
+															"fieldName": "Text18",
+															"fieldParent": "3a296abe-a40a-45cc-c3c3-f1a751cc0c69",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_moneda}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "a839fdbf-d246-4930-96ca-2f2b7afad64c",
+															"fieldName": "Text42",
+															"fieldParent": "3a296abe-a40a-45cc-c3c3-f1a751cc0c69",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_moneda}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "fd2d21f9-64c1-4990-d88b-a636c0a5969f",
+													"fieldName": "ColumnProveedor",
+													"fieldParent": "6194f4aa-4ead-4793-db7f-a68896c31d5c",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "0f6d2190-6b06-4299-8c42-76d6ea6096c4",
+															"fieldName": "Label28",
+															"fieldParent": "fd2d21f9-64c1-4990-d88b-a636c0a5969f",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "# Proveedor",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "35ecf4ab-354a-4b64-d716-c706dd088279",
+															"fieldName": "Text19",
+															"fieldParent": "fd2d21f9-64c1-4990-d88b-a636c0a5969f",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_proveedor}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "bdcccc9f-0a2e-46c1-e075-a6c01ee3be52",
+															"fieldName": "Text43",
+															"fieldParent": "fd2d21f9-64c1-4990-d88b-a636c0a5969f",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_proveedor}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "3043bba2-5341-4661-de6b-853515479a73",
+											"fieldName": "Row11",
+											"fieldParent": "f491692e-cc80-4f29-f984-bac3c231cb32",
+											"fieldType": "nep.bootstrap.Row",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "margin",
+													"grouping": "Properties",
+													"value": "MarginTop3",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "9cd00be5-f8ca-4f23-8e89-ec8939ea2812",
+													"fieldName": "ColumnMinimo",
+													"fieldParent": "3043bba2-5341-4661-de6b-853515479a73",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "c84836a5-0195-4e70-b6ee-a0429c940e3d",
+															"fieldName": "Label29",
+															"fieldParent": "9cd00be5-f8ca-4f23-8e89-ec8939ea2812",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Stock minimo",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "91c1f2ea-acc5-4a65-811b-e19103de7c24",
+															"fieldName": "Text20",
+															"fieldParent": "9cd00be5-f8ca-4f23-8e89-ec8939ea2812",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_stock_min}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "4ad02c54-ebcf-4b5e-b205-2712e475f9b9",
+															"fieldName": "Text44",
+															"fieldParent": "9cd00be5-f8ca-4f23-8e89-ec8939ea2812",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_stock_min}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "fcc859d6-8f5d-4eac-8612-5631e22bf837",
+													"fieldName": "ColumnMaximo",
+													"fieldParent": "3043bba2-5341-4661-de6b-853515479a73",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "8a625f25-2897-4560-ba29-80f15ad82c76",
+															"fieldName": "Label30",
+															"fieldParent": "fcc859d6-8f5d-4eac-8612-5631e22bf837",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Stock maximo",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "0a64c35a-c3e9-4504-ed29-2acf0fa71e7e",
+															"fieldName": "Text21",
+															"fieldParent": "fcc859d6-8f5d-4eac-8612-5631e22bf837",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_stock_max}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "09b6c809-cd1c-4fda-a650-d5a1a1aff0a0",
+															"fieldName": "Text45",
+															"fieldParent": "fcc859d6-8f5d-4eac-8612-5631e22bf837",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_stock_max}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "b7f2361b-f7a6-403c-f3a9-184978d3d0eb",
+													"fieldName": "ColumnPuntoReorden",
+													"fieldParent": "3043bba2-5341-4661-de6b-853515479a73",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "2573220e-ab82-4349-93e7-dbf8408af768",
+															"fieldName": "Label31",
+															"fieldParent": "b7f2361b-f7a6-403c-f3a9-184978d3d0eb",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Punto de Reorden",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "f93f8e68-d39c-4650-aa0c-6b3ff86df224",
+															"fieldName": "Text22",
+															"fieldParent": "b7f2361b-f7a6-403c-f3a9-184978d3d0eb",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_punto_reorden}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "b9b11454-f9bd-480f-a974-9a18fdd9333d",
+															"fieldName": "Text46",
+															"fieldParent": "b7f2361b-f7a6-403c-f3a9-184978d3d0eb",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_punto_reorden}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "c58d2cae-9b7a-4e83-e6c5-3c5b3b7278eb",
+											"fieldName": "Row12",
+											"fieldParent": "f491692e-cc80-4f29-f984-bac3c231cb32",
+											"fieldType": "nep.bootstrap.Row",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "margin",
+													"grouping": "Properties",
+													"value": "MarginTop3",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "5eaa806a-9dc7-489d-d55a-2427c85f2b3a",
+													"fieldName": "ColumnCodigoMX",
+													"fieldParent": "c58d2cae-9b7a-4e83-e6c5-3c5b3b7278eb",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "876c6492-23d5-4308-9119-891b3f982a71",
+															"fieldName": "Label33",
+															"fieldParent": "5eaa806a-9dc7-489d-d55a-2427c85f2b3a",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Codigo MX",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "design",
+																	"grouping": "Properties",
+																	"value": "Bold",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "5118a0b0-f321-4764-de06-6501ad7e683a",
+															"fieldName": "Text24",
+															"fieldParent": "5eaa806a-9dc7-489d-d55a-2427c85f2b3a",
+															"fieldType": "nep.bootstrap.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_codigo_mx}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Strong",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "57d80166-ca38-4e8f-bc36-c0e138cc60de",
+															"fieldName": "Text47",
+															"fieldParent": "5eaa806a-9dc7-489d-d55a-2427c85f2b3a",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{/g_grl_codigo_mx}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "388c29eb-cee2-4e58-ef55-cd15938c01f2",
+									"fieldName": "PanelAttachment",
+									"fieldParent": "e4349a81-776f-49c5-e3dd-c2b31ed0c316",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClassPadding",
+											"grouping": "Properties",
+											"value": "sapUiNoContentPadding",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "d4c3df16-d44a-4146-b1bf-4dc0b7af3b59",
+											"fieldName": "Row6",
+											"fieldParent": "388c29eb-cee2-4e58-ef55-cd15938c01f2",
+											"fieldType": "nep.bootstrap.Row",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "margin",
+													"grouping": "Properties",
+													"value": "MarginTop3",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "9728a2f8-94dd-4448-9209-e34adb857633",
+													"fieldName": "Column16",
+													"fieldParent": "d4c3df16-d44a-4146-b1bf-4dc0b7af3b59",
+													"fieldType": "nep.bootstrap.Col",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "abb2a511-e8b3-4c44-ca0f-c93d391a458e",
+															"fieldName": "PDFViewerDetails",
+															"fieldParent": "9728a2f8-94dd-4448-9209-e34adb857633",
+															"fieldType": "sap.m.PDFViewer",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "showDownloadButton",
+																	"grouping": "Properties",
+																	"value": "false",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "height",
+																	"grouping": "Properties",
+																	"value": "1000px",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "f6577279-d816-480e-d14c-be1033ef3789",
+					"fieldName": "UpdateRequest",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "559a0715-4932-4e09-8bfc-557dc4dd4d8b",
+					"restOperation": "ddbff1cd-446a-457e-c26c-b9cc87471a40",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "19f6af1c-8137-4cdc-c637-4a317576b45a",
+					"fieldName": "APIGetFolio",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "c1e2d8f7-0490-4076-858f-5e006298c1af",
+					"restOperation": "1522afd3-4dcc-46fe-b80e-51c70998e72c",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "afd3646d-70c5-4f8b-aff1-2ffe8d871a9e",
+					"fieldName": "Javascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Javascript.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "23.12.8.1156",
+	"application": "mx_details_inbox",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": true,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": true,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"apis": [
+		{
+			"id": "c1e2d8f7-0490-4076-858f-5e006298c1af",
+			"name": "SGSMLOG_MX_API_SCRIPT",
+			"ver": "23.11.14.1014"
+		},
+		{
+			"id": "559a0715-4932-4e09-8bfc-557dc4dd4d8b",
+			"name": "SGSM_MX_API_GRAL",
+			"ver": "23.10.18.1136"
+		}
+	],
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c"
+}

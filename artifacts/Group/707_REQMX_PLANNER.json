@@ -1,0 +1,15 @@
+{
+	"id": "7e11859d-587d-40c5-abc0-8f603cab6db5",
+	"createdAt": "2023-09-24T07:20:15.000Z",
+	"createdBy": "o0930847",
+	"name": "707_REQMX_PLANNER",
+	"description": null,
+	"ver": "23.10.27.1115",
+	"parent": null,
+	"isExternal": false,
+	"idpSource": "local",
+	"idpSourceId": null,
+	"idpSourceKey": null,
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c",
+	"roles": []
+}

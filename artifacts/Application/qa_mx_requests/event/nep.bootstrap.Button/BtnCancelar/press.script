@@ -1,0 +1,2 @@
+// Change transition
+App.backToPage(MainPage, "fade");

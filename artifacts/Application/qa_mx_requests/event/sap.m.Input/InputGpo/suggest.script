@@ -1,0 +1,10 @@
+var binding = InputGpo.getBinding("suggestionItems");
+
+var value = oEvent.getParameter("suggestValue");
+
+var filter = new sap.ui.model.Filter("lst_nombre", function(sText) {    // Contains filter
+    return (sText || "").toUpperCase().indexOf(value.toUpperCase()) > -1;
+});
+
+ 
+binding.filter([filter]);

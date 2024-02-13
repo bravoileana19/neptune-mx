@@ -1,0 +1,15 @@
+{
+	"id": "48f8fd5c-42fe-486f-9a67-5916973e7d75",
+	"createdAt": "2023-09-24T07:15:31.000Z",
+	"createdBy": "o0930847",
+	"name": "709_REQMX_PURCHASING",
+	"description": null,
+	"ver": "24.2.2.97",
+	"parent": null,
+	"isExternal": false,
+	"idpSource": "local",
+	"idpSourceId": null,
+	"idpSourceKey": null,
+	"package": "d9229878-8c9e-4572-a17b-02780781be8c",
+	"roles": []
+}
