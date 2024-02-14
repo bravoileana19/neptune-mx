@@ -7,7 +7,7 @@
 	},
 	"name": "SGSM-LGT-MX-REQ",
 	"description": "Paquete de desarrollo dedicado para el modulo de solicitud de creacion de MXs",
-	"ver": "24.2.13.1455",
+	"ver": "24.2.13.1456",
 	"enableCICD": true,
 	"apps": [
 		{
