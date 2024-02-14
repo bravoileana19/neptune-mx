@@ -7,7 +7,7 @@
 	},
 	"name": "SGSM-LGT-MX-REQ",
 	"description": "Paquete de desarrollo dedicado para el modulo de solicitud de creacion de MXs",
-	"ver": "24.2.13.1456",
+	"ver": "24.2.14.1323",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -175,6 +175,11 @@
 			"id": "ac689121-4f1a-4560-848d-1c996b4e6208",
 			"name": "REQMX_REQUESTER",
 			"description": "Solicitud de creacion de codigos MX"
+		},
+		{
+			"id": "737a5a40-7a9c-4f03-a962-d9fd4ab06bdf",
+			"name": "Employee",
+			"description": null
 		},
 		{
 			"id": "70dce099-6414-4ef0-927e-9cfb2c61cc9c",
